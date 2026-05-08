@@ -1,0 +1,23 @@
+//git add .
+
+//git commit -m "Explica qué cambiaste"
+
+//git push origin main
+
+//En la otra PC (para recibir esos cambios):
+
+//git pull origin main
+
+//Nota: Solo necesitas hacer npm install de nuevo si instalaste alguna librería nueva 
+//(como un paquete de iconos o de diseño).
+
+//Para iniciar la página: 
+//1 Terminal
+
+// cd \Documents\GitHub\NutriHeart
+// node index.js
+
+
+//2 Terminal
+//cd \Documents\GitHub\NutriHeart\nutri-client
+// npm start
