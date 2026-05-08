@@ -430,7 +430,7 @@ function App() {
           <>
             <section className="hero">
               <h2>
-                {usuario ? `¡Hola, ${usuario.nombre || usuario.email.split('@')[0]}! 👋` : "Tu camino al bienestar"}
+                {usuario ? `¡Hola, ${usuario.nombre || usuario.email.split('@')[0]}! ` : "Tu camino al bienestar"}
               </h2>
               <p>Analizamos lo que tu cuerpo necesita para brillar desde adentro.</p>
               <button 
@@ -440,23 +440,7 @@ function App() {
                 {usuario ? "Ver mi recomendación" : "Comenzar ahora"}
               </button>
             </section>
-            <section className="seccion-pasos">
-              <div className="paso-card">
-                <span className="paso-numero">01</span>
-                <h3>Regístrate</h3>
-                <p>Crea tu perfil personalizado.</p>
-              </div>
-              <div className="paso-card">
-                <span className="paso-numero">02</span>
-                <h3>Elige Objetivo</h3>
-                <p>Mejora tu salud hoy.</p>
-              </div>
-              <div className="paso-card">
-                <span className="paso-numero">03</span>
-                <h3>¡Logra Metas!</h3>
-                <p>Transforma tu vida.</p>
-              </div>
-            </section>
+            
           </>
         )}
 

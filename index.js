@@ -12,7 +12,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/NutriData')
     .catch(err => console.error("Error al conectar a MongoDB:", err));
 
 // 2. MODELO DE ALIMENTOS
-// 2. MODELO DE ALIMENTOS
 const Alimento = mongoose.model('Alimento', new mongoose.Schema({
     nombre: String,
     objetivo: String, 
